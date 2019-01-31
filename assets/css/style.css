@@ -100,13 +100,171 @@ body {
         float: initial;
         /* margin-top: 29px; */
     }
+
+/* *************************************************************************** */
+/* HOMEPAGE BOXES */
+/* *************************************************************************** */
+
+#about {
+    position:absolute;
+    top:12%; 
+    left:0px;
+    right:50%;
+    bottom:40%;
     
-/* Media Queries */
-            /* ****************************************************************************************************************** */
-            /* SIDE NAVIGATION */
-            /* ****************************************************************************************************************** */
-                    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-                    @media screen and (max-height: 450px) {
+    background-image: url("../images/snow-leopard-hd-wallpaper.jpg");
+    margin:20px;
+    border:white 10px solid;
+    background-repeat: cover;
+    background-size: 710px 330px;
+}
+
+#about h1 {
+  text-align: center;
+  margin-top:10px;
+  margin-top:120px;
+}
+
+
+
+#projects {
+    background-image: url("../images/MUDA.png");
+    position:absolute;
+    top:60%; 
+    left:0px;
+    right:50%;
+    bottom:0;
+    
+    margin:20px;
+    border:white 10px solid;
+    background-repeat: cover;
+    background-size: 710px 330px;
+}
+
+#projects h1 {
+    text-align: center;
+    margin-top:85px;
+    color:black;
+  }
+
+#contact{
+    background-image: url("../images/cleveland-ohio.jpg");
+    position:absolute;
+    top:12%; 
+    right:0px;
+    left:50%;
+    bottom:0px;
+    
+    margin:20px;
+    border:white 10px solid;
+    background-repeat: no-repeat;
+    background-size: 715px 610px;
+}
+
+#contact h1 {
+    text-align: center;
+    margin-top:247px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* Media Queries !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/ 
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  /* ------------------------------------------------ */
+  /* MOBILE STYLES  ------PHONES  */
+  /* ------------------------------------------------- */
+    @media only screen and (max-width: 400px) {
+            body {
+            background-color: #F09A9D; /* Red */
+            background-image: url("../images/iphoneX-mountain-background.jpeg");
+            }
+
+        /* SIDE NAVIGATION */
+
+            /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+            @media screen and (max-height: 450px) {
                         .sidenav {padding-top: 15px;}
                         .sidenav a {font-size: 18px;}
-                    }
+            }
+        
+        /* HOMEPAGE BOXES */
+    
+            #about {
+                position: relative;
+                flex: auto;
+                height: 809.9px;
+                background-size: cover;
+                font-size: 100px;
+                margin-top: 257px;
+                display: flex ;
+            }
+            #about h1{
+                margin-top:370px;
+            }
+            #contact {
+                margin-left: -730px;
+                flex: auto;
+                position: relative;
+                margin-right: 7.8em;
+                margin-bottom: 100px;
+                background-size: cover;
+                height: 809.9px;
+                font-size: 100px;
+                margin-top: 150px;
+            }
+            
+            #contact h1{
+                margin-top:370px;
+            }
+
+            #projects {
+                position: relative;
+                height: 809.9px;
+                background-size: cover;
+                font-size: 100px;
+                margin-top: 150px;
+            }
+            
+            #projects h1{
+                margin-top:370px;
+            }
+
+    }
+  
+
+  /* ---------------------------------------------------- */
+  /* Tablet Styles */
+  /* ---------------------------------------------------- */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+
+  /* ------------------------------------------------------ */
+  /* Desktop Styles */
+  /* ------------------------------------------------------- */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+
+
+
+            
+
+            

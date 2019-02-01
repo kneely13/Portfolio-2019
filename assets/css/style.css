@@ -34,10 +34,11 @@ body {
 }
 
  .fa-arrow-circle-right {
-    font-size: 48px;
-    color: white;
+    font-size: 65px;
+    color: mediumspringgreen;
     position: fixed;
-    margin-top: 20%;
+    margin-top: -11%;
+    margin-left: -33%;
     
 }
   
@@ -105,69 +106,132 @@ body {
 /* HOMEPAGE BOXES */
 /* *************************************************************************** */
 
-#about {
-    position:absolute;
-    top:12%; 
-    left:0px;
-    right:50%;
-    bottom:40%;
+.photo-grid-container {
+    display: flex;
     
+    justify-content: space-evenly;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    align-items: center;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 450px;
+    height: 400px;
+    color:white;
+    background-size: cover;
+    background-position: center;
+    text-align: center;    
+}
+.photo-grid-item-title {
+    margin-top: 47%;
+
+}
+#aboutBox {
     background-image: url("../images/snow-leopard-hd-wallpaper.jpg");
-    margin:20px;
-    border:white 10px solid;
-    background-repeat: cover;
-    background-size: 710px 330px;
-}
-
-#about h1 {
-  text-align: center;
-  margin-top:10px;
-  margin-top:120px;
-}
-
-
-
-#projects {
-    background-image: url("../images/MUDA.png");
-    position:absolute;
-    top:60%; 
-    left:0px;
-    right:50%;
-    bottom:0;
     
-    margin:20px;
-    border:white 10px solid;
-    background-repeat: cover;
-    background-size: 710px 330px;
+}
+#projectBox {
+    background-image: url("../images/MUDA.png");
+   
+}
+#contactBox {
+    background-image: url("../images/cleveland-ohio.jpg");
 }
 
-#projects h1 {
-    text-align: center;
-    margin-top:85px;
+/* *************************************************************************** */
+/* PARROLLAX CONTAINERS (ALL PAGES)  */
+/* *************************************************************************** */
+
+#pageScrollTitle {
+    position: absolute;
+    top: -100;
+    /* margin-bottom: 10%; */
+    left: 8%;
+    right: 40%;
+    /* bottom: 19%; */
+    margin-top: -615px;
+    color: whitesmoke;
+    font-size: 260px;
+}
+#pageScrollTitleProjects {
+    position: absolute;
+    top: -100;
+    /* margin-bottom: 10%; */
+    left: 8%;
+    right: 40%;
+    /* bottom: 19%; */
+    margin-top: -141px;
+    color: whitesmoke;
+    font-size: 260px;
+}
+
+.parallaxContainer {
+  
+    margin: 500px auto;
     color:black;
+    background: white;
+    font-size: 24px;
+    
+  }
+  
+  .parallaxContainerAbout {
+    
+        margin: 500px auto;
+        color: black;
+        background: whitesmoke;
+        font-size: 24px;
+        margin-bottom: -50px;
+        text-align: -webkit-center;
+    
+  }
+  
+  .parallaxContainerAbout img {
+    padding: 5em;
+    border-radius: 50%;
+  }
+  
+  .parallaxContainerAbout p {
+    padding: 4em;
+    max-width: 1008px;
+    font-size: initial;
+    margin-top: -100px;
   }
 
-#contact{
-    background-image: url("../images/cleveland-ohio.jpg");
-    position:absolute;
-    top:12%; 
-    right:0px;
-    left:50%;
-    bottom:0px;
-    
-    margin:20px;
-    border:white 10px solid;
-    background-repeat: no-repeat;
-    background-size: 715px 610px;
-}
-
-#contact h1 {
-    text-align: center;
-    margin-top:247px;
-}
 
 
-
+/* *************************************************************************** */
+/* FOOTER  */
+/* *************************************************************************** */
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+  
+  .footer-three {
+    flex: 2;
+  }
+  
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+  }
 
 
 
@@ -196,14 +260,15 @@ body {
         /* SIDE NAVIGATION */
 
             /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-            @media screen and (max-height: 450px) {
+            /* @media screen and (max-height: 450px) {
                         .sidenav {padding-top: 15px;}
                         .sidenav a {font-size: 18px;}
             }
-        
+         */
+            
         /* HOMEPAGE BOXES */
     
-            #about {
+            /* #about {
                 position: relative;
                 flex: auto;
                 height: 809.9px;
@@ -241,7 +306,7 @@ body {
             
             #projects h1{
                 margin-top:370px;
-            }
+            } */
 
     }
   
@@ -253,6 +318,8 @@ body {
     body {
       background-color: #F5CF8E; /* Yellow */
     }
+
+    
   }
 
   /* ------------------------------------------------------ */
@@ -262,7 +329,7 @@ body {
     body {
       background-color: #B2D6FF; /* Blue */
     }
-
+  }
 
 
             

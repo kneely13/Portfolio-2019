@@ -31,7 +31,7 @@ function GetClock(){
   if(nsec<=9) nsec="0"+nsec;
   
   var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+"<br>"+" "+nhour+":"+nmin+":"+nsec+ap+""+"\n(EST)"+"<br>"+"+5 (GMT/UTC)";
-  document.getElementById('clockbox').HTML=clocktext;
+  document.getElementById('clockbox').innerHTML=clocktext;
 
   
 }

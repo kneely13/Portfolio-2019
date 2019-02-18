@@ -33,12 +33,13 @@ body {
     color: white;
 }
 
- .fa-arrow-circle-right {
+ .fa-bars {
     font-size: 65px;
     color: mediumspringgreen;
     position: fixed;
-    margin-top: -11%;
-    margin-left: -33%;
+    margin-top: -17%;
+    margin-left: 2%;
+    transform: rotate(90deg);
     
 }
   
@@ -70,9 +71,7 @@ body {
 
 #main {
     transition: margin-left .5s;
-    /* padding: 21px; */
-    padding-left: 10%;
-    font-size: -webkit-xxx-large;
+    padding: 16px;
 }
 
 /* *************************************************************************** */
@@ -157,7 +156,7 @@ body {
     left: 8%;
     right: 40%;
     /* bottom: 19%; */
-    margin-top: -615px;
+    margin-top: -122px;
     color: whitesmoke;
     font-size: 260px;
 }
@@ -213,13 +212,14 @@ body {
             background: url(../images/hangman-cover.jpg) no-repeat;
             background-size: 100%;
             height: 870px;
-            background-attachment: fixed;
+            background-attachment: unset;
+            background-position: center;
           }
           
           .parallaxTwo {
             background: url(../images/diamond-cover.jpg) no-repeat;
             background-size: 100%;
-            background-attachment: fixed;
+            background-attachment: unset;
             height: 870px;
             background-position: center;
           }
@@ -347,11 +347,89 @@ body {
   /* ------------------------------------------------ */
   /* MOBILE STYLES  ------PHONES  */
   /* ------------------------------------------------- */
-    @media only screen and (max-width: 400px) {
-            body {
-            background-color: #F09A9D; /* Red */
+
+    /* -----------IPHONES------------------- */
+
+        /* ----------iphone X ---- in portrait & landscape---------- */
+        
+        @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { 
+            body { 
             background-image: url("../images/iphoneX-mountain-background.jpeg");
             }
+
+            #allParallaxContainers {
+                
+                background-attachment: initial;
+                padding: 10px;
+                width: inherit;
+                margin: 5%;
+            }
+
+            .photo-grid-container {
+                display: flex;
+                justify-content: center;
+                /* margin: 100%; */
+                align-items: self-end;
+                padding-bottom: 100%;
+            }
+
+            .photo-grid {
+                width: 900px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            /* white-space: pre-line; */
+            align-items: center;
+            }
+            
+            .parallaxContainerAbout {
+                background-color: transparent;
+            }
+        }
+
+
+
+        /* ----------iPhone 6, 7, & 8 --- in portrait & landscape---------- */
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+            
+        }
+
+        /* ----------iPhone 6, 7, & 8 Plus --- in portrait & landscape---------- */
+        @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
+            
+        }
+
+
+        /* ----------iphone 5 & 5S ---- in portrait & landscape---------- */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+            
+           
+
+        }
+
+        /* ----------iphone 2G, 3G, 4, 4S ---- in portrait & landscape---------- */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+            
+        }
+
+       
+
+
+
+
+    /* @media only screen and (min-width: 200px) and(max-width: 400px) { */
+            /* body {
+            background-color: #F09A9D; 
+            background-image: url("../images/iphoneX-mountain-background.jpeg");
+            } */
+
+
+            /* IPHONE X */
+            
+            
+            
+    
 
         /* SIDE NAVIGATION */
 
@@ -404,28 +482,53 @@ body {
                 margin-top:370px;
             } */
 
-    }
+    /* } */
   
 
   /* ---------------------------------------------------- */
   /* Tablet Styles */
   /* ---------------------------------------------------- */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
+  /* @media only screen and (min-width: 401px) and (max-width: 960px) {
     body {
-      background-color: #F5CF8E; /* Yellow */
+        
+            background-color: #F09A9D; 
+            background-image: url("../images/iphoneX-mountain-background.jpeg");
+            
     }
 
+    .fa-bars {
+        font-size: 100px;
+        color: mediumspringgreen;
+        position: fixed;
+        margin-top: 50%;
+        margin-left: 2%;
+        transform: rotate(90deg);
+        
+    }
+    .parallaxContainerAbout p { 
+        max-width: 3008px;
+        font-size: initial;
+        margin-top: -100px;
+    }
     
-  }
+    #allParallaxContainers {
+        background-attachment: scroll;
+    }
+  } */
 
   /* ------------------------------------------------------ */
   /* Desktop Styles */
   /* ------------------------------------------------------- */
-  @media only screen and (min-width: 961px) {
+  /* @media only screen and (min-width: 961px) {
     body {
-      background-color: #B2D6FF; /* Blue */
+      background-color: #B2D6FF; 
     }
-  }
+
+    #allParallaxContainers {
+        background-attachment: fixed;
+    }
+    
+  } */
 
 
             

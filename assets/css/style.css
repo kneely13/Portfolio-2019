@@ -168,7 +168,7 @@ body {
     left: 8%;
     right: 40%;
     /* bottom: 19%; */
-    margin-top: -141px;
+    margin-top: -179px;
     color: whitesmoke;
     font-size: 260px;
 }
@@ -195,6 +195,7 @@ body {
   
   .parallaxContainerAbout img {
     padding: 5em;
+    display: inline-flex;
     border-radius: 50%;
   }
   
@@ -204,6 +205,101 @@ body {
     font-size: initial;
     margin-top: -100px;
   }
+
+        /* *************************
+        /* Parrollax Projects All */
+        /* *************************/
+        .parrallaxOne {
+            background: url(../images/hangman-cover.jpg) no-repeat;
+            background-size: 100%;
+            height: 870px;
+            background-attachment: fixed;
+          }
+          
+          .parallaxTwo {
+            background: url(../images/diamond-cover.jpg) no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          .parallaxThree {
+            background: url("../images/quiz-cover.jpg") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          .parallaxFour {
+            background: url("../images/airplane-cover.gif") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          .parallaxFive {
+            background: url("../images/train-cover.jpg") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          .parallaxSeven {
+            background: url("../images/celeb-horoscope-cover.png") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          
+          .parallaxSix {
+            background: url("../images/LIRI-cover.jpg") no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          
+          .parallaxEight {
+            background: url("../images/dating-app.jpg") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          
+          .parallaxNine {
+            background: url("../images/burger-cover.jpg") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          
+          .parallaxTen {
+            background: url("../images/beer-cover.jpg") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
+          
+          .parallaxEleven {
+            background: url("../images/memory_game_background.jpg") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+            
+          }
+          
+          .parallaxTwelve {
+            background: url("../images/NEWS.png") no-repeat ;
+            background-size: 100%;
+            background-attachment: fixed;
+            height: 870px;
+            background-position: center;
+          }
 
 
 

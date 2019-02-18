@@ -148,6 +148,22 @@ body {
 /* *************************************************************************** */
 /* PARROLLAX CONTAINERS (ALL PAGES)  */
 /* *************************************************************************** */
+#gameTitle {
+
+    color: white;
+    font-size: -webkit-xxx-large;
+}
+    
+
+
+#gamePlay {
+
+    
+        color: white;
+        padding-top: 30%;
+        font-size: xx-large;
+    
+}
 
 #pageScrollTitle {
     position: absolute;
@@ -212,14 +228,14 @@ body {
             background: url(../images/hangman-cover.jpg) no-repeat;
             background-size: 100%;
             height: 870px;
-            background-attachment: unset;
+            background-attachment: fixed;
             background-position: center;
           }
           
           .parallaxTwo {
             background: url(../images/diamond-cover.jpg) no-repeat;
             background-size: 100%;
-            background-attachment: unset;
+            background-attachment: fixed;
             height: 870px;
             background-position: center;
           }

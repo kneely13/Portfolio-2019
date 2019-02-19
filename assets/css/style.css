@@ -91,14 +91,18 @@ body {
 /* *************************************************************************** */
 
     .intro {
-        position: relative;
-        display: block;
-        margin: 5%;
+        font-size: -webkit-xxx-large;
+        /* position: unset; */
+        /* display: table-footer-group; */
+        margin: 14%;
         color: white;
-        text-align: right;
-        float: left;
+        margin-left: 9em;
+        word-spacing: 5px;
+        line-height: 2em;
+        text-align: -webkit-center;
     }
 
+     
 /* *************************************************************************** */
 /* CLOCK */
 /* *************************************************************************** */

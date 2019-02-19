@@ -73,6 +73,18 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+#mainOne {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#mainTwo {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+
+
 
 /* *************************************************************************** */
 /* THE Website Home Title and info MENU */
@@ -175,18 +187,76 @@ body {
     margin-top: -122px;
     color: whitesmoke;
     font-size: 260px;
+    transition: margin-left .5s;
+    padding: 16px;
 }
-#pageScrollTitleProjects {
+#pageScrollTitleOne {
     position: absolute;
     top: -100;
     /* margin-bottom: 10%; */
     left: 8%;
     right: 40%;
     /* bottom: 19%; */
+    margin-top: -122px;
+    color: whitesmoke;
+    font-size: 260px;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#pageScrollTitleTwo {
+    position: absolute;
+    top: -100;
+    /* margin-bottom: 10%; */
+    left: 8%;
+    right: 40%;
+    /* bottom: 19%; */
+    margin-top: -122px;
+    color: whitesmoke;
+    font-size: 260px;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#pageScrollTitleThreeOne {
+    position: absolute;
+    top: -100;
+    /* margin-bottom: 10%; */
+    left: 8%;
+    right: 40%;
+    /* bottom: 19%; */
+    margin-top: -122px;
+    color: whitesmoke;
+    font-size: 260px;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* #pageScrollTitleProjects {
+    position: absolute;
+    top: -100;
+    
+    left: 8%;
+    right: 40%;
+    
     margin-top: -179px;
     color: whitesmoke;
     font-size: 260px;
+    transition: margin-left .5s;
+    padding: 16px;
 }
+#pageScrollTitleContacts {
+    position: absolute;
+    top: -100;
+    
+    left: 8%;
+    right: 40%;
+    
+    margin-top: -179px;
+    color: whitesmoke;
+    font-size: 260px;
+    transition: margin-left .5s;
+    padding: 16px;
+} */
 
 .parallaxContainer {
   
@@ -207,11 +277,13 @@ body {
         text-align: -webkit-center;
     
   }
+
   
   .parallaxContainerAbout img {
     padding: 5em;
     display: inline-flex;
     border-radius: 50%;
+    
   }
   
   .parallaxContainerAbout p {
@@ -220,6 +292,33 @@ body {
     font-size: initial;
     margin-top: -100px;
   }
+
+  #faultySideNavFix {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+  /* .parallaxContainerProjects {
+    
+    margin: 500px auto;
+    color: black;
+    background: whitesmoke;
+    font-size: 24px;
+    margin-bottom: -50px;
+    text-align: -webkit-center;
+
+}
+
+.parallaxContainerContact {
+    
+    margin: 500px auto;
+    color: black;
+    background: whitesmoke;
+    font-size: 24px;
+    margin-bottom: -50px;
+    text-align: -webkit-center;
+
+} */
 
         /* *************************
         /* Parrollax Projects All */
@@ -322,9 +421,11 @@ body {
 /* *************************************************************************** */
 /* FOOTER  */
 /* *************************************************************************** */
-.footer {
+
+  .footer {
     display: flex;
     justify-content: space-between;
+    
   }
   
   .footer-item {

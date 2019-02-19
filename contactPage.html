@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me | Kristian Neely</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale"=1>
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    </head>
+              
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="homePage.html"><i class="fa fa-home"></i> Home</a>
+            <a href="aboutPage.html"><i class="fa fa-user"></i> About Me</a>
+            <a href="projectPage.html"><i class="fa fa-folder"></i> Projects</a>
+            <a href="contactPage.html"><i class="fa fa-envelope"></i> Contact</a>
+            <a href="#">My Resume</a>
+            <a href="#">Coverletter</a>
+            <div id="clockbox"></div>
+        </div>
+              
+        
+            
+<span classname="sidenavBtn" onclick="openNav()"><i class='fas fa-bars'></i> </span>
+            
+        <div class="parallaxContainerAbout">
+            <div id="main" class="parrallax">
+                <h1 id="pageScrollTitle">
+                    Contact
+                </h1>
+                <!-- <p>scroll down symbol here</p> -->
+                <br>
+                    <h2 id="contactTitle">
+                        <br>
+                        <br>
+                        Best Ways to Reach Me
+                        <br>
+                    </h2>          
+                <br>
+                    <hr>
+                <br>
+                <div class="parrallaxContactOne" id="allParallaxContainers" >
+
+                        <br>
+                            <p>
+                                My best form of contact would be via Phone Call or Text. I am usually able to chat during the weekend (Sat & Sun) at anytime. During the week (Mon through Fri), I am avalible at anytime before 12:30 PM (EST), and after 05:00 PM (EST).
+                            </p>
+                        <br>
+                            <P>
+                                The Second form of contact would be via Email. Feel free to message me by email at anytime and I will try my best to get back to you as fast as possible. The fastest way to message me by email would be from this page by filling out the message form <a href="messageAnchor">Below</a> which will send me your email message to each of my emails. My response may be from my <em>work</em> or <em>personal</em> email depending on where I see it first. See <a href="contactAnchor">Contact Info</a> below to email me directly through one specific emails only.
+                            </P>
+                        <br>
+                            <p>The Third form of contact would be through my
+                                <a href="linkedin.com/in/kristian-neely-a165bba6"> LinkedIn </a>.
+                                 Feel free chat with me through direct message. I look foward to talking with you soon.
+                            </p>
+                        <br>
+
+                </div>           
+            </div>
+        </div>
+
+<!-- <span classname="sidenavBtn" onclick="openNav()"><i class='fas fa-bars'></i> </span> -->
+
+        <div class="parallaxContainerAbout">
+            <div id="mainOne" class="parrallax">
+                <h1 id="pageScrollTitleOne">
+                    Message
+                </h1>
+                <!-- <p>scroll down symbol here</p> -->
+                <br>
+                <br>
+                    <h2 id="contactTitle">
+                        <br>
+                        Send Me an Email here!
+                    </h2>
+                <br>
+
+                <div class="parrallaxContactOne" id="allParallaxContainers" >
+                    <form id="contact-form">
+                        <br>
+                        <div class="emailDirectionsDiv">
+                            <p>
+                                Your message will send to both my (work and personal) email for the purpose of faster response time. If you want to chat through one specific email, see my email info below in  <a href="contactAnchor">General Info</a> and feel free to contact me that way if you prefer. 
+                            </p>
+                        </div>
+                        <hr>
+                        <br>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">* First Name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John" required="required">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1A">* Last Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Smith" required="required">
+                                </div>
+
+                        <br>
+
+                                <div class="form-group">
+                                            <label for="exampleFormControlInput2">* Email</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your-email@example.com">
+                                </div>  
+                                <br>
+                                <div class="form-group">
+                                        <label for="exampleFormControlInput2A">Email Type</label>
+                                        <br>
+                                            <select name="emailTypes"  class="form-control" id="exampleFormControlInput1">
+                                                <option></option>
+                                                <option value="theirWorkEmail">Work</option>
+                                                <option value="theirPersonalEmail">Personal</option>
+                                                <option value="theirFax">Fax</option>
+                                                <option value="Other">Other</option>
+                                            </select> 
+                                </div>
+
+                        <br>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput2">* Subject</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                </div>
+
+                        <br>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput3">Company</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Company Name">
+                                </div>
+
+                        <br>
+
+                                <div class="form-group">
+                                    <label for="telephone">Phone</label>
+                                    <input type="tel" name="telephone" class="form-control" id="exampleFormControlInput1" value=" ">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                        <label for="telephone">Phone Type</label>
+                                        <br>
+                                        <select name="phoneTypes"  class="form-control" id="exampleFormControlInput1">
+                                                <option></option>
+                                                <option value="theirWorkPhone">Work</option>
+                                                <option value="theirPersonalPhone">Cell</option>
+                                                <option value="theirHomePhone">Home</option>
+                                        </select>
+                                </div>
+
+                        <br>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">* Message: </label>
+                                    <br>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" required="required"></textarea>
+                                </div>
+
+                        <br>
+                                <div class="form-group">
+                                    <label for="exampleFormControlFileUpload1"><h4>File Upload</h4></label>
+                                    <hr>
+                                    <h6>
+                                    (Show a file-select field which allows a file to be chosen for upload:)
+                                    </h6>
+                                    
+                                    <form action="/action_page.php" class="formInsertFile">
+                                        Select a file: <input type="file" name="myFile">
+                                        <input type="insert">
+                                        <br>
+                                    </form>
+                                    <hr>
+                                </div>
+
+                               
+        
+                        <br>
+
+                        <input type="submit">
+                    </form>
+                        <br>
+                    <div class="infoRequiredDiv">
+                        <h6>( * ): Info Required</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <span classname="sidenavBtn" onclick="openNav()"><i class='fas fa-bars'></i> </span> -->
+        <div class="parallaxContainerAbout">
+                <div id="mainTwo" class="parrallax">
+                    <h1 id="pageScrollTitleTwo">
+                        General
+                    </h1>
+                    <!-- <p>scroll down symbol here</p> -->
+                    <br>
+                        <h2 id="contactTitle">
+                            <br>
+                            <br>
+                            General Contact Information
+                            <br>
+                        </h2>          
+                    <br>
+                        <hr>
+                    <br>
+                    <div a="contactAnchor" class="parrallaxContactThree" id="allParallaxContainers" >
+    
+                            <br>
+                                <h2>
+                                    Kristian Neely
+                                </h2>
+                            <br>
+                                <h4>
+                                    Location
+                                </h4>
+                                <h7>
+                                    Berea, Ohio 44017
+                                </h7>
+                            <br>
+                            <br>
+                                <h4>
+                                    Phone
+                                </h4>
+                                <h7>
+                                   Cell: (440-655-8704)
+                                </h7>
+                                <br>
+                                <h7>
+                                    Home: (440-655-8704)
+                                </h7>
+                            <br>
+                            <br>
+                                <h4>
+                                    <strong>Email</strong>
+                                </h4>
+                                <h7>
+                                    <strong>Work:</strong>  kristian.neely1898@gmail.com
+                                </h7>
+                                    <br>
+                                <h7>
+                                    <strong>Personal:</strong>  kneely13@students.ndc.edu
+                                    <br>
+                                    <br>
+                                </h7>
+                            <br>
+                            <br>
+
+    
+                    </div>           
+                </div>
+
+                
+        </div>
+        
+        
+    
+        <script src="assets/javascript/script.js"></script>
+    </body>
+    <footer id="footer">
+        <div class='footer'>
+            <div class='footer-item footer-one'></div>
+            <div class='footer-item footer-two'></div>
+            <div class='footer-item footer-three'></div>
+        </div>
+    </footer>
+</html>

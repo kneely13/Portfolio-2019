@@ -435,7 +435,7 @@ body {
   .footer-item {
     border: 1px solid #fff;
     background-color: #D6E9FE;
-    height: 200px;
+    height: 239px;
     flex: 1;
   }
   
@@ -448,8 +448,62 @@ body {
     background-color: #5995DA;
     flex: initial;
     width: 300px;
+    
   }
 
+  .socialMediaFooterList {
+    display: inherit;
+    margin-left: 33%;
+    font-size: 337%;
+    margin-top: -25.5px;
+  }
+
+.footerNavigationList{
+    display: grid;
+    margin-inline-start: 6em;   
+}
+.footerNavListTitle {
+    display: grid;
+    margin-inline-start: 4em;
+    padding-bottom: 1em;   
+}
+
+.footerTitleHr {
+    width: 5em;
+}
+#facebookLogo{
+    
+    font-size: x-large;
+}
+
+#instagramLogo{
+    
+    font-size: x-large;
+}
+
+#linkedInLogo{
+    
+    font-size: x-large;
+}
+#githubLogo{
+    
+    font-size: x-large;
+}
+
+.callButton {
+    display: flex;
+    margin-left: 46%;
+    margin-bottom: 1em;
+}
+
+.emailButton {
+    display: flex;
+    margin-left: 46%; 
+}
+.emailbuttonBody {
+    font-size: smaller;
+    margin-bottom: 9px;
+}
 
 
 

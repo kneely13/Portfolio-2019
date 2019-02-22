@@ -10,7 +10,7 @@ function openNav() {
         document.getElementById("main").style.marginLeft="250px";
         document.getElementById("mainOne").style.marginLeft="250px";
         document.getElementById("mainTwo").style.marginLeft="250px";
-        
+        document.getElementById("mainThree").style.marginLeft="250px";
         document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
       
 }
@@ -20,11 +20,10 @@ function closeNav() {
     document.getElementById("pageScrollTitle").style.marginLeft="0";
     document.getElementById("pageScrollTitleOne").style.marginLeft="0";
     document.getElementById("pageScrollTitleTwo").style.marginLeft="0";
-    
     document.getElementById("main").style.marginLeft="0";
     document.getElementById("mainOne").style.marginLeft="0";
     document.getElementById("mainTwo").style.marginLeft="0";
-    
+    document.getElementById("mainThree").style.marginLeft="0";
     document.body.style.backgroundColor = "white";
 }
 

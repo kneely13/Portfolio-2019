@@ -435,7 +435,7 @@ body {
   .footer-item {
     border: 1px solid #fff;
     background-color: #D6E9FE;
-    height: 239px;
+    height: 275px;
     flex: 1;
   }
   
@@ -459,8 +459,8 @@ body {
   }
 
 .footerNavigationList{
-    display: grid;
-    margin-inline-start: 6em;   
+    display: inline-grid;
+    margin-inline-start: 6em; 
 }
 .footerNavListTitle {
     display: grid;
@@ -506,7 +506,7 @@ body {
 }
 
 
-
+            
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 /* Media Queries !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/ 

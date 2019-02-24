@@ -81,6 +81,10 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+#mainThree {
+    transition: margin-left .5s;
+    padding: 16px;
+}
 
 
 
@@ -221,19 +225,6 @@ body {
     padding: 16px;
 }
 
-#pageScrollTitleThreeOne {
-    position: absolute;
-    top: -100;
-    /* margin-bottom: 10%; */
-    left: 8%;
-    right: 40%;
-    /* bottom: 19%; */
-    margin-top: -122px;
-    color: whitesmoke;
-    font-size: 260px;
-    transition: margin-left .5s;
-    padding: 16px;
-}
 
 /* #pageScrollTitleProjects {
     position: absolute;
@@ -287,7 +278,6 @@ body {
     padding: 5em;
     display: inline-flex;
     border-radius: 50%;
-    
   }
   
   .parallaxContainerAbout p {
@@ -300,7 +290,7 @@ body {
   #faultySideNavFix {
     transition: margin-left .5s;
     padding: 16px;
-}
+    }
 
   /* .parallaxContainerProjects {
     
@@ -311,7 +301,7 @@ body {
     margin-bottom: -50px;
     text-align: -webkit-center;
 
-}
+    }
 
 .parallaxContainerContact {
     

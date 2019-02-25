@@ -628,28 +628,26 @@ body {
             
             /* Side-Nav Menu */
             #mySidenav.open {
-                 width: 100%;
+                width: 76%;
             }
             #mySidenav.open a {
-                font-size: 700%;
+                font-size: 545%;
                 line-height: 150%;
                 color: lightcyan;
-           }
+            }
            .sidenav {
                background-color: darkslategray;
            }
 
            #main {
-            margin-left: 0;
+            margin-right: -111%;
+            margin-left: 88px;
             transition: .5s;
             padding: 16px;
-            min-height: fit-content;
-            margin-bottom: 62%;
-        }
+            }
 
-            .footer #footer{
+            /* .footer #footer{
                 direction: row;
-                /* flex-direction: row; */
                 display: table-caption;
                 margin: -110%;
                 margin-bottom: -128%;
@@ -662,13 +660,11 @@ body {
                 flex: inherit;
                 width: 100%;
                 font-size: 60px;
-                /* height: 6em; */
-                /* padding-bottom: 64px; */
                 display: block;
                 line-height: 155%;
                 padding: 1em;
                 padding-right: 30%;
-            }
+            } */ 
         }
 
 

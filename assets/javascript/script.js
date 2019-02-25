@@ -2,28 +2,49 @@
 //NAV SIDEBAR SYNTAX
 function openNav() {
     
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft="250px";
-        document.getElementById("pageScrollTitle").style.marginLeft="250px";
-        document.getElementById("mainOne").style.marginLeft="250px";
-        document.getElementById("pageScrollTitleOne").style.marginLeft="250px";
-        document.getElementById("mainTwo").style.marginLeft="250px";
-        document.getElementById("pageScrollTitleTwo").style.marginLeft="250px";
-        document.getElementById("mainTwo").style.marginLeft="250px";
-        document.getElementById("mainThree").style.marginLeft="250px";
+        // document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("mySidenav").className = "sidenav open";
+        document.getElementById("main").className="open";
+        document.getElementById("pageScrollTitle").className="open";
+        document.getElementById("footer").className="open";
+        document.getElementById("mainOne").className="open";
+        document.getElementById("pageScrollTitleOne").className="open";
+        document.getElementById("mainTwo").className="open";
+        document.getElementById("pageScrollTitleTwo").className="open";
+        document.getElementById("mainTwo").className="open";
+        document.getElementById("mainThree").className="open";
+        // document.getElementById("main").style.marginLeft="250px";
+        // document.getElementById("pageScrollTitle").style.marginLeft="250px";
+        // document.getElementById("footer").style.marginLeft="250px";
+        // document.getElementById("mainOne").style.marginLeft="250px";
+        // document.getElementById("pageScrollTitleOne").style.marginLeft="250px";
+        // document.getElementById("mainTwo").style.marginLeft="250px";
+        // document.getElementById("pageScrollTitleTwo").style.marginLeft="250px";
+        // document.getElementById("mainTwo").style.marginLeft="250px";
+        // document.getElementById("mainThree").style.marginLeft="250px";
         document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
       
 }
   
 function closeNav() {
-    document.getElementById("mySidenav").style.width="0";
-    document.getElementById("main").style.marginLeft="0";
-    document.getElementById("pageScrollTitle").style.marginLeft="0";
-    document.getElementById("mainOne").style.marginLeft="0";
-    document.getElementById("pageScrollTitleOne").style.marginLeft="0";
-    document.getElementById("mainTwo").style.marginLeft="0";
-    document.getElementById("pageScrollTitleTwo").style.marginLeft="0";
-    document.getElementById("mainThree").style.marginLeft="0";
+    // document.getElementById("mySidenav").style.width="0";
+    document.getElementById("mySidenav").className="sidenav";
+    document.getElementById("main").className="";
+    document.getElementById("pageScrollTitle").className="";
+    document.getElementById("footer").className="";
+    document.getElementById("mainOne").className="";
+    document.getElementById("pageScrollTitleOne").className="";
+    document.getElementById("mainTwo").className="";
+    document.getElementById("pageScrollTitleTwo").className="";
+    document.getElementById("mainThree").className="";
+    // document.getElementById("main").style.marginLeft="0";
+    // document.getElementById("pageScrollTitle").style.marginLeft="0";
+    // document.getElementById("footer").style.marginLeft="0";
+    // document.getElementById("mainOne").style.marginLeft="0";
+    // document.getElementById("pageScrollTitleOne").style.marginLeft="0";
+    // document.getElementById("mainTwo").style.marginLeft="0";
+    // document.getElementById("pageScrollTitleTwo").style.marginLeft="0";
+    // document.getElementById("mainThree").style.marginLeft="0";
     document.body.style.backgroundColor = "white";
 }
 

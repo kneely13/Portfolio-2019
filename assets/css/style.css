@@ -14,6 +14,15 @@ body {
 /* *************************************************************************** */
 /* THE SIDE NAVIGATION MENU */
 /* *************************************************************************** */
+#mySidenav {
+    width: 0;
+}
+
+#mySidenav.open {
+    width: 250px;
+}
+
+
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -69,11 +78,43 @@ body {
 
     /* Styling page content- using this to push the page content to the right when one opens the side navigation */
 
-#main {
+/* #main {
     transition: margin-left .5s;
+    padding: 16px;
+} */
+
+#main {
+    margin-left: 0;
+    transition: .5s;
+    padding: 16px;
+}
+#main.open {
+    margin-left: 250px;
+    transition: .5s;
     padding: 16px;
 }
 #mainOne {
+    margin-left: 0;
+    transition: .5s;
+    padding: 16px;
+}
+#mainOne.open {
+    margin-left: 250px;
+    transition: .5s;
+    padding: 16px;
+}
+#mainTwo {
+    margin-left: 0;
+    transition: .5s;
+    padding: 16px;
+}
+#mainTwo.open {
+    margin-left: 250px;
+    transition: .5s;
+    padding: 16px;
+}
+
+/* #mainOne {
     transition: margin-left .5s;
     padding: 16px;
 }
@@ -84,7 +125,7 @@ body {
 #mainThree {
     transition: margin-left .5s;
     padding: 16px;
-}
+} */
 
 
 
@@ -198,6 +239,10 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+#pageScrollTitle.open {
+    margin-left: 250px;
+}
+
 #pageScrollTitleOne {
     position: absolute;
     top: -100;
@@ -211,6 +256,9 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+#pageScrollTitleOne.open {
+    margin-left: 250px;
+}
 #pageScrollTitleTwo {
     position: absolute;
     top: -100;
@@ -223,6 +271,9 @@ body {
     font-size: 260px;
     transition: margin-left .5s;
     padding: 16px;
+}
+#pageScrollTitleTwo.open {
+    margin-left: 250px;
 }
 
 
@@ -415,17 +466,25 @@ body {
 /* *************************************************************************** */
 /* FOOTER  */
 /* *************************************************************************** */
-
+#footer {
+    
+    justify-content: space-between;
+    transition: margin-left .5s;
+    /* padding: 16px; */
+    
+}
   .footer {
     display: flex;
     justify-content: space-between;
-    
+    transition: margin-left .5s;
+    flex-wrap: wrap;
+    /* padding: 16px; */
   }
   
   .footer-item {
     border: 1px solid #fff;
     background-color: #D6E9FE;
-    height: 275px;
+    height: auto;
     flex: 1;
   }
   
@@ -520,6 +579,7 @@ body {
         @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { 
             body { 
             background-image: url("../images/iphoneX-mountain-background.jpeg");
+            min-height: 100%
             }
 
             #allParallaxContainers {
@@ -550,6 +610,64 @@ body {
             
             .parallaxContainerAbout {
                 background-color: transparent;
+                opacity: 1 ; 
+            }
+
+            .parallaxContainerAbout p {
+                background-color: dimgrey;
+                opacity: 0.8;
+                /* max-height: -webkit-fill-available; */
+                /* margin-top: 0.1%; */
+                max-width: 80%;
+                line-height: 150%;
+                margin-bottom: 6.8%;
+                font-size: 172%;
+                height: 31%;  
+                padding: 2em; 
+            }
+            
+            /* Side-Nav Menu */
+            #mySidenav.open {
+                 width: 100%;
+            }
+            #mySidenav.open a {
+                font-size: 700%;
+                line-height: 150%;
+                color: lightcyan;
+           }
+           .sidenav {
+               background-color: darkslategray;
+           }
+
+           #main {
+            margin-left: 0;
+            transition: .5s;
+            padding: 16px;
+            min-height: fit-content;
+            margin-bottom: 62%;
+        }
+
+            .footer #footer{
+                direction: row;
+                /* flex-direction: row; */
+                display: table-caption;
+                margin: -110%;
+                margin-bottom: -128%;
+                flex-wrap: inherit;
+                margin-top: 34%;
+                display: grid;
+            }
+            .footer-one, .footer-two, .footer-three {
+                background-color: #5995DA;
+                flex: inherit;
+                width: 100%;
+                font-size: 60px;
+                /* height: 6em; */
+                /* padding-bottom: 64px; */
+                display: block;
+                line-height: 155%;
+                padding: 1em;
+                padding-right: 30%;
             }
         }
 

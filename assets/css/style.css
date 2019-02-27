@@ -89,9 +89,10 @@ body {
     padding: 16px;
 }
 #main.open {
-    margin-left: 250px;
-    transition: .5s;
-    padding: 16px;
+
+        margin-left: 14%;
+        transition: .5s;
+        
 }
 #mainOne {
     margin-left: 0;

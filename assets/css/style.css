@@ -86,7 +86,7 @@ body {
 #main {
     margin-left: 0;
     transition: .5s;
-    padding: 16px;
+    /* padding: 16px; */
 }
 #main.open {
 
@@ -327,7 +327,7 @@ body {
 
   
   .parallaxContainerAbout img {
-    padding: 5em;
+    padding: 3.9em;
     display: inline-flex;
     border-radius: 50%;
   }
@@ -335,7 +335,8 @@ body {
   .parallaxContainerAbout p {
     padding: 4em;
     max-width: 1008px;
-    font-size: initial;
+    /* font-size: initial; */
+    font-size: large;
     margin-top: -100px;
   }
 
@@ -483,8 +484,7 @@ body {
   }
   
   .footer-item {
-    border: 1px solid #fff;
-    background-color: #D6E9FE;
+    background-color: gainsboro;
     height: auto;
     flex: 1;
   }
@@ -495,27 +495,44 @@ body {
   
   .footer-one,
   .footer-three {
-    background-color: #5995DA;
+    background-color: slategray;
     flex: initial;
     width: 300px;
+    color: floralwhite;
     
   }
 
   .socialMediaFooterList {
     display: inherit;
-    margin-left: 33%;
+    margin-left: 10%;
     font-size: 337%;
-    margin-top: -25.5px;
   }
 
-.footerNavigationList{
+
+.footerNavigationList {
     display: inline-grid;
-    margin-inline-start: 6em; 
+    margin-inline-start: 7%;
+    margin-bottom: 5%;
+    /* margin-block-start: 0%; */
 }
 .footerNavListTitle {
     display: grid;
-    margin-inline-start: 4em;
-    padding-bottom: 1em;   
+    padding-bottom: 42px;
+    font-family: monospace;
+    font-size: larger;
+    padding-top: 25px;
+}
+
+.footerNavigationList a{
+    color: black;
+    font-style: italic;
+    font-family: unset;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.footerNavigationList a:hover{
+    color: rebeccapurple;
 }
 
 .footerTitleHr {
@@ -542,17 +559,20 @@ body {
 
 .callButton {
     display: flex;
-    margin-left: 46%;
     margin-bottom: 1em;
+    -webkit-appearance: inherit;
+    padding: 0.5em;
 }
 
 .emailButton {
     display: flex;
-    margin-left: 46%; 
+    margin-left: 37%;
+    text-decoration: none;
 }
 .emailbuttonBody {
     font-size: smaller;
-    margin-bottom: 9px;
+    -webkit-appearance: inherit;
+    padding: 0.5em;
 }
 
 
@@ -578,74 +598,101 @@ body {
         /* ----------iphone X ---- in portrait & landscape---------- */
         
         @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { 
-            body { 
-            background-image: url("../images/iphoneX-mountain-background.jpeg");
-            min-height: 100%
+            
+            body {
+                background-image: url("../images/iphoneXCloudBackground.jpg");
+                margin: 0 auto;
+                background-repeat: no-repeat;
+                background-position: center ;
+                background-attachment: fixed;
+                background-size: cover;
             }
 
-            #allParallaxContainers {
+            #pageScrollTitle {
+                position: absolute;
+                top: -100;
+                margin-top: -53px;
+                color: whitesmoke;
+                font-size: 105px;
+                
+            }
+
+            #main {
+                margin-right: -10%;
+                /* margin-left: 0%; */
+                /* transition: .5s; */
+                padding: -70px;
+            }
+            
+           /* .footer {
+            display: table-caption;
+            justify-content: space-between;
+            transition: margin-left .5s;
+            flex-wrap: wrap;
+           }  */
+            /* #allParallaxContainers {
                 
                 background-attachment: initial;
                 padding: 10px;
                 width: inherit;
                 margin: 5%;
-            }
+            } */
 
-            .photo-grid-container {
+            /* .photo-grid-container {
                 display: flex;
                 justify-content: center;
-                /* margin: 100%; */
                 align-items: self-end;
                 padding-bottom: 100%;
-            }
+            } */
 
-            .photo-grid {
+            /* .photo-grid {
                 width: 900px;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             flex-direction: row;
-            /* white-space: pre-line; */
-            align-items: center;
-            }
             
-            .parallaxContainerAbout {
+            align-items: center;
+            } */
+            
+            /* .parallaxContainerAbout {
                 background-color: transparent;
                 opacity: 1 ; 
-            }
+            } */
 
-            .parallaxContainerAbout p {
+            /* .parallaxContainerAbout p {
                 background-color: dimgrey;
                 opacity: 0.8;
-                /* max-height: -webkit-fill-available; */
-                /* margin-top: 0.1%; */
+                
                 max-width: 80%;
                 line-height: 150%;
                 margin-bottom: 6.8%;
                 font-size: 172%;
                 height: 31%;  
                 padding: 2em; 
-            }
+            } */
             
             /* Side-Nav Menu */
-            #mySidenav.open {
-                width: 76%;
-            }
-            #mySidenav.open a {
+            /* #mySidenav.open {
+                width: 100%;
+            } */
+            /* #mySidenav.open a {
                 font-size: 545%;
                 line-height: 150%;
                 color: lightcyan;
-            }
-           .sidenav {
+            } */
+           /* .sidenav {
                background-color: darkslategray;
-           }
+           } */
 
-           #main {
+           /* #main {
             margin-right: -111%;
             margin-left: 88px;
             transition: .5s;
             padding: 16px;
-            }
+            } */
+
+
 
             /* .footer #footer{
                 direction: row;
@@ -671,7 +718,7 @@ body {
 
 
         /* ----------iPhone 6, 7, & 8 --- in portrait & landscape---------- */
-        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+        @media only screen and (min-device-width : 376px) and (max-device-width : 667px) { 
             
         }
 

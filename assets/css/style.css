@@ -75,6 +75,12 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
+.socialMediaFooterListSide {
+    display: inline-flex;
+    margin-left: -6%;
+    font-size: 337%;
+    margin-top:18%;
+  }
 
     /* Styling page content- using this to push the page content to the right when one opens the side navigation */
 

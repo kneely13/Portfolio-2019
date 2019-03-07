@@ -646,12 +646,21 @@ body {
                 width: 100%;
             }
             .sidenav a {
-                
-            font-size: 176px;
+            line-height: 2em;
+            font-size: 82px;
             }
             #clockbox {
-                font-size: 142px;
+                font-size: 49px;
+                line-height: 2em;
             }
+            .socialMediaFooterListSide {
+                margin-left: 29%;
+            }
+            #facebookLogo, #instagramLogo,#linkedInLogo,#githubLogo {
+                font-size: larger;
+            }
+    
+
             
            /* .footer {
             display: table-caption;

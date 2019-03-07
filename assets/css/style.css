@@ -667,6 +667,9 @@ body {
             .footer-one, .footer-three {
                 width:100%;
             }
+            .parrallaxOne, .parrallaxTwo, .parrallaxThree, .parrallaxFour, .parrallaxFive,.parrallaxSix,.parrallaxSeven,.parrallaxEight,.parrallaxNine, .parrallaxTen, .parrallaxEleven, .parrallaxTwelve, {
+                background-attachment: inherit;
+            }
 
             
            /* .footer {

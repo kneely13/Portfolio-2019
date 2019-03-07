@@ -660,10 +660,10 @@ body {
             #facebookLogo, #instagramLogo,#linkedInLogo,#githubLogo {
                 font-size: larger;
             }
-            .sidenav .closebtn {
+            .sidenav, .closebtn {
                 font-size: 170%;
             }
-            .footer-one .footer-three {
+            .footer-one, .footer-three {
                 width:100%;
             }
 

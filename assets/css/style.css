@@ -647,7 +647,7 @@ body {
             }
             .sidenav a {
             line-height: 2em;
-            font-size: 82px;
+            font-size: 85px;
             }
             #clockbox {
                 font-size: 49px;
@@ -659,7 +659,9 @@ body {
             #facebookLogo, #instagramLogo,#linkedInLogo,#githubLogo {
                 font-size: larger;
             }
-    
+            .sidenav .closebtn {
+                font-size: 170%;
+            }
 
             
            /* .footer {

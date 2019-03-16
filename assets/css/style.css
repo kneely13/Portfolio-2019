@@ -11,6 +11,16 @@ body {
     background-size: cover;
 }
 
+
+/* *************************************************************************** */
+/* THE SCROLL DOWN DIRECTIONS */
+/* *************************************************************************** */
+.scrollDown {
+    z-index: 1;
+    position: sticky;
+}
+
+
 /* *************************************************************************** */
 /* THE SIDE NAVIGATION MENU */
 /* *************************************************************************** */
@@ -131,6 +141,19 @@ body {
     margin-top: 0%;
 }
 #mainThree.open {
+    margin-left: 250px;
+    transition: .5s;
+    padding: 16px;
+}
+
+#mainFour {
+    margin-bottom: -122%;
+    transition: .5s;
+    padding: 80px;
+    margin-right: 127px;
+    margin-top: 0%;
+}
+#mainFour.open {
     margin-left: 250px;
     transition: .5s;
     padding: 16px;
@@ -295,6 +318,22 @@ body {
     padding: 16px;
 }
 #pageScrollTitleTwo.open {
+    margin-left: 250px;
+}
+#pageScrollTitleFour {
+    position: absolute;
+    top: 30;
+    /* margin-bottom: 10%; */
+    left: 8%;
+    right: 40%;
+    /* bottom: 19%; */
+    margin-top: -122px;
+    color: whitesmoke;
+    font-size: 17vw;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#pageScrollTitleFour.open {
     margin-left: 250px;
 }
 

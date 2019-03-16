@@ -11,8 +11,11 @@ function openNav() {
         document.getElementById("pageScrollTitleOne").className="open";
         document.getElementById("mainTwo").className="open";
         document.getElementById("pageScrollTitleTwo").className="open";
-        document.getElementById("mainTwo").className="open";
+        // document.getElementById("mainTwo").className="open";
         document.getElementById("mainThree").className="open";
+        document.getElementById("pageScrollTitleThree").className="open";
+        document.getElementById("mainFour").className="open";
+        document.getElementById("pageScrollTitleFour").className="open";
         // document.getElementById("main").style.marginLeft="250px";
         // document.getElementById("pageScrollTitle").style.marginLeft="250px";
         // document.getElementById("footer").style.marginLeft="250px";
@@ -37,6 +40,8 @@ function closeNav() {
     document.getElementById("mainTwo").className="";
     document.getElementById("pageScrollTitleTwo").className="";
     document.getElementById("mainThree").className="";
+    document.getElementById("mainFour").className="";
+    document.getElementById("pageScrollTitleFour").className="";
     // document.getElementById("main").style.marginLeft="0";
     // document.getElementById("pageScrollTitle").style.marginLeft="0";
     // document.getElementById("footer").style.marginLeft="0";

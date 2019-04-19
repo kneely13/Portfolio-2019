@@ -662,60 +662,78 @@ body {
 
         /* ----------iphone X ---- in portrait & landscape---------- */
         
-        @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { 
-            
+        @media only screen 
+        and (min-width: 375px) 
+        and (max-width: 812px) 
+        and (-webkit-device-pixel-ratio : 3)
+        and (orientation: portrait) {
+        
+            /*  (min-width : 375px) and and (-webkit-device-pixel-ratio : 3) */
             body {
                 background-image: url("../images/iphoneXCloudBackground.jpg");
-                margin: 0 auto;
+                /* margin: 500px auto;
                 background-repeat: no-repeat;
                 background-position: center ;
                 background-attachment: fixed;
-                background-size: cover;
-                width:137%;
+                background-size: cover; */
+                width:171%;
             }
 
         
             #pageScrollTitle {
-                position: absolute;
-                top: -100;
+                /* position: absolute; */
+                /* top: -100; */
                 margin-top: -80px;
-                color: whitesmoke;
+                /* color: whitesmoke; */
                 font-size: 139px;
             }
 
-            #main {
+            /* #main {
                 margin-right: 0;
                 padding: -70px;
-            }
+            } */
 
             #mySidenav.open {
                 width: 100%;
             }
             .sidenav a {
             line-height: 2em;
-            font-size: 85px;
+            font-size: 300%;
             }
             #clockbox {
-                font-size: 49px;
+                font-size: -webkit-xxx-large;
                 line-height: 2em;
+                display:block;
             }
             .socialMediaFooterListSide {
-                margin-left: 29%;
+                margin-left: inherit;
+                font-size: 150%;
+                padding-left: 11%;
             }
+
             #facebookLogo, #instagramLogo,#linkedInLogo,#githubLogo {
                 font-size: larger;
             }
-            .sidenav, .closebtn {
-                font-size: 170%;
+            .sidenav .closebtn {
+                font-size: 425%;
             }
-            .footer-one, .footer-three {
+            .footer-one  {
                 width:100%;
             }
+            .footer-three {
+                width:100%;
+            }
+
+            
             .parrallaxOne, .parrallaxTwo, .parrallaxThree, .parrallaxFour, .parrallaxFive,.parrallaxSix,.parrallaxSeven,.parrallaxEight,.parrallaxNine, .parrallaxTen, .parrallaxEleven, .parrallaxTwelve, {
                 background-attachment: inherit;
             }
 
-            
+            .parallaxContainerAbout p {
+                
+            }
+
+            /* ----------------------------------- */
            /* .footer {
             display: table-caption;
             justify-content: space-between;

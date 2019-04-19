@@ -71,7 +71,7 @@ function GetClock(){
   if(nmin<=9) nmin="0"+nmin;
   if(nsec<=9) nsec="0"+nsec;
   
-  var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+"<br>"+" "+nhour+":"+nmin+":"+nsec+ap+""+"\n(EST)"+"<br>"+"+5 (GMT/UTC)";
+  var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+"<br>"+" "+nhour+":"+nmin+":"+nsec+ap+""+"\n(EST)"+"<br>"+"+4 (GMT/UTC)";
   document.getElementById('clockbox').innerHTML=clocktext;
 
   

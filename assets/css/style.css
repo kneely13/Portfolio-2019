@@ -263,12 +263,9 @@ body {
 
 
 #gamePlay {
-
-    
         color: white;
         padding-top: 30%;
-        font-size: xx-large;
-    
+        font-size: xx-large;   
 }
 
 #pageScrollTitle {
@@ -430,6 +427,14 @@ body {
         /* *************************
         /* Parrollax Projects All */
         /* *************************/
+        .parrallaxThirteen {
+            background: url(../images/grownupImage.png) no-repeat;
+            background-size: 100%;
+            height: 870px;
+            background-attachment: fixed;
+            background-position: center;
+          }
+
         .parrallaxOne {
             background: url(../images/hangman-cover.jpg) no-repeat;
             background-size: 100%;

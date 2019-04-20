@@ -681,10 +681,19 @@ body {
 
         
             #pageScrollTitle {
-                /* position: absolute; */
-                /* top: -100; */
+                margin-top: -80px; 
+                font-size: 139px;
+            }
+            #pageScrollTitleOne {
+                margin-top: -98px;
+                font-size: 139px;
+            }
+            #pageScrollTitleTwo {
                 margin-top: -80px;
-                /* color: whitesmoke; */
+                font-size: 139px;
+            }
+            #pageScrollTitleFour {
+                margin-top: -80px;
                 font-size: 139px;
             }
 
@@ -729,8 +738,34 @@ body {
                 background-attachment: inherit;
             }
 
-            .parallaxContainerAbout p {
-                
+            #main.open {
+                margin-left: 0;
+            }
+            #mainOne.open {
+                margin-left: 0;
+            }
+            #mainTwo.open {
+                margin-left: 0;
+            }
+            #mainThree.open {
+                margin-left: 0;
+            }
+            #mainFour.open {
+                margin-left: 0;
+            }
+
+            #pageScrollTitle.open {
+                margin-left: 0;
+
+            }
+            #pageScrollTitleThree.open {
+                margin-left: 0;
+            }
+            #pageScrollTitleTwo.open {
+                margin-left: 0;
+            }
+            #pageScrollTitleFour.open {
+                margin-left: 0;
             }
 
             /* ----------------------------------- */

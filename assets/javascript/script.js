@@ -1,4 +1,5 @@
 
+
 //NAV SIDEBAR SYNTAX
 function openNav() {
     

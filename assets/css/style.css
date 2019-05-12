@@ -778,6 +778,7 @@ body {
             .photo-grid-item-title {
                 margin-top: 45%;
                 font-size: 4em;
+                width: 121%;
             }
         }
 

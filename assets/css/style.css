@@ -676,7 +676,8 @@ body {
                 background-position: center ;
                 background-attachment: fixed;
                 background-size: cover; */
-                width:171%;
+                /* width:171%; */
+                width:120%;
             }
 
         
@@ -770,6 +771,7 @@ body {
 
             .photo-grid{
                 padding-bottom: 5%
+                
             }
             /* .photo-grid-item {
                 width: 1150px;
